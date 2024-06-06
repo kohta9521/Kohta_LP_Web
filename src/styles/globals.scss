@@ -15,7 +15,7 @@
   --color-light: #f8f9fa;
   --color-dark: #343a40;
 
-  /* fontsize */
+  /* font size */
   --font-size-xxs: 0.75rem;
   --font-size-xs: 0.875rem;
   --font-size-sm: 1rem;
@@ -26,16 +26,13 @@
   --font-size-3xl: 2.25rem;
   --font-size-4xl: 3rem;
 
-  /* fontwight */
+  /* font wight */
   --font-weight-light: 300;
   --font-weight-normal: 400;
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
-
-
 }
-
 
 * {
   box-sizing: border-box;
@@ -50,6 +47,7 @@ body {
 }
 
 body {
+  background-color: white;
 }
 
 a {
