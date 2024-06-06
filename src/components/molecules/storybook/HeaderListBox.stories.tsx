@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
 import HeaderListBox from "../HeaderListBox";
+import HeaderListItem from "../../atoms/HeaderListItem";
 
 const meta: Meta = {
   title: "Components/Molecules/HeaderListBox",
@@ -22,6 +23,6 @@ type HeaderListBoxStory = StoryObj<typeof HeaderListBox>;
 
 export const Default: HeaderListBoxStory = {
   args: {
-    children: "HeaderListBox",
+    children: <HeaderListItem id={1} link="/" text="Home" />,
   },
 };
