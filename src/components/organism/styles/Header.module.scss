@@ -5,8 +5,12 @@
   right: 0;
   width: 90%;
   height: 80px;
+  border-radius: 4px;
   margin: 0 auto;
   background-color: var(--color-light);
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.08);
   .container {
     display: flex;
     justify-content: space-between;
@@ -16,6 +20,7 @@
     }
     .rightBox {
       width: 40%;
+      margin-right: 20px;
     }
   }
 }
