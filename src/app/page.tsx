@@ -1,4 +1,5 @@
 // scss
+import HeroContent from "@/components/molecules/HeroContent";
 import styles from "../styles/page.module.scss";
 
 // components
@@ -10,7 +11,7 @@ export default function Home() {
     <div>
       <Header />
       <Hero>
-        <h1>sample</h1>
+        <HeroContent />
       </Hero>
     </div>
   );
