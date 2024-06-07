@@ -1,11 +1,21 @@
 .header {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
   width: 90%;
   height: 80px;
+  margin: 0 auto;
   background-color: var(--color-light);
   .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     .leftBox {
+      width: 30%;
     }
     .rightBox {
+      width: 40%;
     }
   }
 }

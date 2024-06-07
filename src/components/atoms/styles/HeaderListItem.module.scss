@@ -1,0 +1,26 @@
+.item {
+  display: inline-block;
+  text-decoration: none;
+
+  .text {
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-dark);
+    position: relative;
+    padding-bottom: 5px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 1.5px;
+      background-color: var(--color-dark);
+      transition: width 0.3s ease-in-out;
+    }
+  }
+  &:hover .text::after {
+    width: 100%;
+  }
+}
