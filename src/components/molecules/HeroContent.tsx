@@ -73,8 +73,10 @@ const HeroContent = () => {
           </ul>
         </div>
         <Link className={styles.contactButton} href="#contact">
-          <IoMdMail className={styles.contactButtonIcon} />
-          <p className={styles.text}>無料相談・資料請求をする</p>
+          <div className={styles.contactContent}>
+            <IoMdMail className={styles.contactButtonIcon} />
+            <p className={styles.text}>無料相談・資料請求をする</p>
+          </div>
         </Link>
       </div>
       <div className={styles.rightBox}>
