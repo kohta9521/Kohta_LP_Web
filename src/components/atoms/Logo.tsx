@@ -21,7 +21,7 @@ const Logo = ({ id, link, size = "medium" }: LogoProps) => {
         className={styles.image}
         src={`/images/common/logo.webp`}
         width={200}
-        height={80}
+        height={75}
         alt="logo image"
       />
     </Link>
