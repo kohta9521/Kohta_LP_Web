@@ -1,0 +1,44 @@
+.worries {
+  width: 100%;
+  height: auto;
+  padding: 100px 0px 0px 0px;
+  background: url("/public/images/top/bg_canvas.jpeg") repeat;
+  .container {
+    width: 100%;
+    height: 100%;
+    .flexBox {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    .solutionBox {
+      position: relative;
+      width: 100vw;
+      height: 450px;
+      .triangleBox {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50pc;
+        background-color: rgb(105, 41, 41);
+      }
+      .solutionBoxImage {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        width: 100%;
+        height: 450px;
+      }
+      .solutionTitle {
+      }
+      .solutionText {
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+}
