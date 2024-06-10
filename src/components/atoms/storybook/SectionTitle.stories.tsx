@@ -28,7 +28,7 @@ const meta: Meta = {
     },
     subTitle: {
       control: {
-        type: "text",
+        summary: "React.ReactNode",
       },
       description: "サブタイトル文字列",
     },
@@ -50,8 +50,14 @@ export const Default: SectionTitleStory = {
     id: 1,
     stringId: "section-title",
     subTitleBoolean: false,
-    subTitle: "サブタイトル",
-    title: "タイトル",
+    subTitle: (
+      <p>
+        実際に導入いただいたお客様からのSEO対策の成果を紹介します。
+        <br />
+        様々な業種、業態、サービス名での検索結果1位という実績を上げています。
+      </p>
+    ),
+    title: "SEO対策実績",
   },
 };
 export const SubTitle: SectionTitleStory = {
@@ -59,8 +65,15 @@ export const SubTitle: SectionTitleStory = {
     id: 1,
     stringId: "section-title",
     subTitleBoolean: true,
-    subTitle: "サブタイトル",
-    title: "タイトル",
+    subTitle: (
+      <p>
+        実際に導入いただいたお客様からのSEO対策の成果を紹介します。
+        <br />
+        様々な業種、業態、サービス名での検索結果1位という実績を上げています。
+      </p>
+    ),
+
+    title: "SEO対策実績",
   },
 };
 export const NotSubTitle: SectionTitleStory = {
@@ -68,7 +81,14 @@ export const NotSubTitle: SectionTitleStory = {
     id: 1,
     stringId: "section-title",
     subTitleBoolean: false,
-    subTitle: "サブタイトル",
-    title: "タイトル",
+    subTitle: (
+      <p>
+        実際に導入いただいたお客様からのSEO対策の成果を紹介します。
+        <br />
+        様々な業種、業態、サービス名での検索結果1位という実績を上げています。
+      </p>
+    ),
+
+    title: "SEO対策実績",
   },
 };

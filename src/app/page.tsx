@@ -5,6 +5,7 @@ import styles from "../styles/page.module.scss";
 // components
 import Header from "@/components/organism/Header";
 import Hero from "@/components/organism/Hero";
+import Worries from "@/components/organism/Worries";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero>
         <HeroContent />
       </Hero>
+      <Worries />
     </div>
   );
 }

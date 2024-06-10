@@ -1,0 +1,48 @@
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  float: left;
+  margin: 0 12px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  width: calc(31% - 4rem);
+  .problemBox {
+    position: absolute;
+    top: -10px;
+    right: 5px;
+    width: 34px;
+    height: 42px;
+    background-color: #224c9a;
+    padding: 3px;
+    .text {
+      display: block;
+      font-size: 14px;
+      color: white;
+    }
+  }
+  .image {
+    width: 177px;
+    max-width: 177px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  .textBox {
+    p {
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 16.8px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 26.4px;
+      color: var(--color-primary);
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+}
