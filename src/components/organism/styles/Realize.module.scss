@@ -1,0 +1,24 @@
+.realize {
+  width: 100vw;
+  height: auto;
+  padding: 100px 0px 30px 0px;
+  background-color: #f2f6fe;
+  .container {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    .titleBox {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 100px;
+    }
+    .flexBox {
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 40px;
+    }
+  }
+}

@@ -6,6 +6,7 @@ import styles from "../styles/page.module.scss";
 import Header from "@/components/organism/Header";
 import Hero from "@/components/organism/Hero";
 import Worries from "@/components/organism/Worries";
+import Realize from "@/components/organism/Realize";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <HeroContent />
       </Hero>
       <Worries />
+      <Realize />
     </div>
   );
 }
