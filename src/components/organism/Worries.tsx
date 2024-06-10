@@ -8,6 +8,7 @@ import styles from "./styles/Worries.module.scss";
 
 // components
 import SectionTitle from "../atoms/SectionTitle";
+import WorriesCard from "../molecules/WorriesCard";
 
 const Worries = () => {
   return (
@@ -26,7 +27,26 @@ const Worries = () => {
             </h1>
           }
         />
-        <div className={styles.flexBox}></div>
+        <div className={styles.flexBox}>
+          <WorriesCard
+            id={1}
+            imgLink="/images/top/worries1.webp"
+            title="制作費用が高い"
+            desc="お客様の予算に合わせたプランをご提案いたします。"
+          />
+          <WorriesCard
+            id={1}
+            imgLink="/images/top/worries2.webp"
+            title="制作費用が高い"
+            desc="お客様の予算に合わせたプランをご提案いたします。"
+          />
+          <WorriesCard
+            id={1}
+            imgLink="/images/top/worries3.webp"
+            title="制作費用が高い"
+            desc="お客様の予算に合わせたプランをご提案いたします。"
+          />
+        </div>
         <div className={styles.solutionBox}>
           <span className={styles.triangleBox}></span>
           <Image
