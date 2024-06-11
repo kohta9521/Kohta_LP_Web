@@ -28,8 +28,9 @@ const WorriesCard = ({ id, imgLink, title, desc }: WorriesCardProps) => {
         alt="worriesImage"
       />
       <div className={styles.textBox}>
-        {desc}
         {title}
+        <br />
+        {desc}
       </div>
     </div>
   );
