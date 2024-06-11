@@ -1,0 +1,36 @@
+.button1 .button2 {
+  cursor: pointer;
+  padding: 20px 40px;
+}
+
+.button1 {
+  background-color: var(--color-orange);
+}
+.button2 {
+  background-color: var(--color-primary);
+}
+
+.popupBox {
+  .popupText {
+  }
+}
+.textBox {
+  display: flex;
+  align-items: center;
+  .icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  .text {
+    font-size: 22px;
+    font-weight: 700;
+  }
+}
+
+.underText {
+}
+
+@media screen and (max-width: 1280px) {
+}
