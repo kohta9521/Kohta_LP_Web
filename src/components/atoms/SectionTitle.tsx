@@ -1,8 +1,5 @@
 import React from "react";
 
-// next
-import Image from "next/image";
-
 // scss
 import styles from "./styles/SectionTitle.module.scss";
 

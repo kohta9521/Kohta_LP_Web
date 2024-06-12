@@ -8,6 +8,7 @@ import Hero from "@/components/organism/Hero";
 import Worries from "@/components/organism/Worries";
 import Realize from "@/components/organism/Realize";
 import ContactBanner from "@/components/organism/ContactBanner";
+import Achievement from "@/components/organism/Achievement";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       </Hero>
       <Worries />
       <Realize />
+      <Achievement />
       <ContactBanner />
     </div>
   );
