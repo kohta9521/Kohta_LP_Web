@@ -19,8 +19,8 @@ export default function Home() {
       </Hero>
       <Worries />
       <Realize />
-      <Achievement />
       <ContactBanner />
+      <Achievement />
     </div>
   );
 }
