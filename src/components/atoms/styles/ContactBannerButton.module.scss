@@ -1,4 +1,5 @@
 .button1 .button2 {
+  position: relative;
   cursor: pointer;
   padding: 20px 40px;
 }
@@ -11,7 +12,13 @@
 }
 
 .popupBox {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  right: 0;
+  width: auto;
   .popupText {
+    font-size: 15px;
   }
 }
 .textBox {

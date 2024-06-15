@@ -1,0 +1,26 @@
+.achievement {
+  width: 100vw;
+  height: auto;
+  padding: 150px 0 100px 0;
+  .container {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+    .mainContent {
+      width: 100%;
+      height: auto;
+      max-width: 1280px;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .achievement {
+    .container {
+      .mainContent {
+        width: 100%;
+      }
+    }
+  }
+}
