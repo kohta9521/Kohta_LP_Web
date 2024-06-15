@@ -10,6 +10,7 @@ import Realize from "@/components/organism/Realize";
 import ContactBanner from "@/components/organism/ContactBanner";
 import Achievement from "@/components/organism/Achievement";
 import Seo from "@/components/organism/Seo";
+import Review from "@/components/organism/Review";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <ContactBanner />
       <Achievement />
       <Seo />
+      <Review />
     </div>
   );
 }
