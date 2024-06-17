@@ -6,6 +6,7 @@ import styles from "./styles/Review.module.scss";
 // components
 import SectionTitle from "../atoms/SectionTitle";
 import ViewMoreButton from "../atoms/ViewMoreButton";
+import ReviewCard from "../molecules/ReviewCard";
 
 const Review = () => {
   return (
@@ -25,7 +26,50 @@ const Review = () => {
           title="お客様の声"
         />
         <div className={styles.content}>
-          <div className={styles.flexBox}></div>
+          <div className={styles.flexBox}>
+            <ReviewCard
+              id={1}
+              image="/images/top/review1.webp"
+              title="サーフィンスクール"
+              text={
+                <p>
+                  湘南サーフィンで1番になる!!
+                  <br />
+                  更に生徒様を集めて、周囲のサーフィン仲間を驚かせたいと考えています。
+                  <br />
+                  「何したらそうなったの？」と聞かれ、「御社に頼んだからだよ！」と答え、「じゃあうちもそこに依頼する！」と言...
+                </p>
+              }
+            />
+            <ReviewCard
+              id={1}
+              image="/images/top/review2.webp"
+              title="児童養護施設"
+              text={
+                <p>
+                  湘南サーフィンで1番になる!!
+                  <br />
+                  更に生徒様を集めて、周囲のサーフィン仲間を驚かせたいと考えています。
+                  <br />
+                  「何したらそうなったの？」と聞かれ、「御社に頼んだからだよ！」と答え、「じゃあうちもそこに依頼する！」と言...
+                </p>
+              }
+            />
+            <ReviewCard
+              id={1}
+              image="/images/top/review3.webp"
+              title="ピザ屋"
+              text={
+                <p>
+                  湘南サーフィンで1番になる!!
+                  <br />
+                  更に生徒様を集めて、周囲のサーフィン仲間を驚かせたいと考えています。
+                  <br />
+                  「何したらそうなったの？」と聞かれ、「御社に頼んだからだよ！」と答え、「じゃあうちもそこに依頼する！」と言...
+                </p>
+              }
+            />
+          </div>
           <ViewMoreButton
             id={3}
             stringId="more"

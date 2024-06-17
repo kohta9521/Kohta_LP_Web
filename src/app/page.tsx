@@ -11,6 +11,7 @@ import ContactBanner from "@/components/organism/ContactBanner";
 import Achievement from "@/components/organism/Achievement";
 import Seo from "@/components/organism/Seo";
 import Review from "@/components/organism/Review";
+import Intro from "@/components/organism/Intro";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Achievement />
       <Seo />
       <Review />
+      <Intro />
     </div>
   );
 }
