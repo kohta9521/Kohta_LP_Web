@@ -1,0 +1,56 @@
+.card {
+  display: block;
+  width: 335px;
+  height: 530px;
+  border-radius: 15px;
+  border: 1px solid gray;
+  .imageBox {
+    width: 330px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 15px 15px 0px 0px;
+    .image {
+      width: 100%;
+      height: 100%;
+      border-radius: 15px 15px 0px 0px;
+    }
+  }
+  .textBox {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    .title {
+      display: block;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .card {
+    display: block;
+    width: 335px;
+    height: 530px;
+    .imageBox {
+      width: 335px;
+      height: auto;
+      .image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .textBox {
+      .title {
+      }
+      p {
+      }
+    }
+  }
+}
