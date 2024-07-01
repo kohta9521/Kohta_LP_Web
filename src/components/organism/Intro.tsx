@@ -4,6 +4,7 @@ import React from "react";
 import styles from "./styles/Intro.module.scss";
 
 // components
+import IntroCard from "../molecules/IntroCard";
 
 const Intro = () => {
   return (
